@@ -1,0 +1,8 @@
+provider "aws" {
+  region = var.region
+  access_key = "ASIAYXQSHIV6BX6BBOFT"
+  secret_key = "tthqFQXJRsUnHbeBtLWFqe1mrG9mqwbOAr+aBkMC"
+  token = "IQoJb3JpZ2luX2VjENP//////////wEaDGV1LWNlbnRyYWwtMSJIMEYCIQCNmJ0brSdWcYOAgmr1BeH7awaTU6ng1xfE70BwDon+igIhAMXHn3ojE8eWq7GoFDxnHudzGM7qxr8/bd17UjikYvAYKpgDCI3//////////wEQABoMNjAwMjU5OTA0ODkyIgxHbNrtGGNdf3zPt8Yq7AI5K4vtJEftyIwEdMN+lWLviEhcZZX4KK6vXPUb4V1snusD7OOEe6V0itPQK0lnoeLEJ07ix0rxoxlX9tw0ZOOVYhq5rlNhSv4Cmehf3c3NzjnQuupQ9zURpW6e5bLLO/coCTcocQFBhXLfLGOb5b2S2Zmh9xEs5e7pKe4bTnYwTqLmY6SLWvkvKojbcwW+/uwEyiIJpOetStc/LSqNoMLXGvL76yGeaHb+a4NvbugNJIcQaUkKuy/jbS9kapxrdy+6+rG6jTBwVRRao+b3EC2sSacM2+RiNEmXzbv/kPpZHzF1JbmlMIpzaQhw3iaBOMd71li57+ey1xDgeQB6PzIpCF5EqE/6nYYKAKmzlMY7IUkli8euwm6s2cs2P0HzWZjQmsKt9V2hCgIDbQ0rKzESww1eY6uolsZ514aqg6ocHoDLZNOKoG67xewZHLzXDo2/mpWUtd99Pl45Pfm3WANeWb0/0WZ7ocMNZW3mMOyp/aYGOqUBGpoYvCpvOeZsnGnU8RbYzzxPTC+REg4b5YSViZHSsjpZViTeW69CDAod6Xxv/rSEC8CFLWyH3+IAWNmZ8bDP+KKB3NEY2B5rPKIumm725DlWr8KerncbtxgLnhET48qf6fwESeMhslaGrqkgqZl05DbQkyxdKWhsIbG/nDxNc/dSn1aMGsCyp9rxjHVmaWZ0/z9tD7JmOPkkFEyUnmPx1SIxV3eO"
+}
+
+data "aws_caller_identity" "current" {}

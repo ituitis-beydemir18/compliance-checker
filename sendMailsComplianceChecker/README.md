@@ -1,0 +1,1 @@
+Read non-compliant resources from dynamodb and send mails to the creators if found. If the creators are not found, send mails to the admin account
